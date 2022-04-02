@@ -25,7 +25,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/girls.gif");
+  background-image: url("/img/girls.gif");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center 35%;
@@ -57,7 +57,7 @@ header.masthead {
   display: inline-block;
   width: 120px;
   height: 120px;
-  background-image: url('../img/emoji.png');
+  background-image: url('/img/emoji.png');
   background-size: cover;
   -webkit-transform: scale(1.4);
       -ms-transform: scale(1.4);
