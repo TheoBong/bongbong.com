@@ -1,7 +1,5 @@
 var app = (function () {
-    var artist = 'Joywave';
-    var twitter = 'joywavez'
-    var startDate = "2022-05-13"
+    var startDate = "2022-05-15"
       const Cn = ue([
         "No Shoulder - Joywave",
         "Buy American - Joywave",
@@ -81,12 +79,12 @@ var app = (function () {
         subscribe: ue(
           [
             {
-              url: "https://soundcloud.com/joywave/no-shoulder",
-              answer: "No Shoulder - Joywave",
+              url: "https://soundcloud.com/kansasband/kansas-carry-on-wayward-son",
+              answer: "Carry On Wayward Son - Kansas",
             },
             {
-              url: "https://soundcloud.com/joywave/buy-american",
-              answer: "Buy American - Joywave",
+              url: "https://soundcloud.com/ylvis-official/the-fox-what-does-the-fox-say",
+              answer: "What Does the Fox Say - Ylvis",
             },
             {
               url: "https://soundcloud.com/joywave/when-youre-bored",
@@ -1089,7 +1087,7 @@ var app = (function () {
               Q(a.$$.fragment),
               (l = x()),
               (u = w("h1")),
-              (u.textContent = artist + " Heardle"),
+              (u.textContent = "Songle"),
               (c = x()),
               (d = w("div")),
               Q(h.$$.fragment),
@@ -4015,7 +4013,7 @@ var app = (function () {
         c() {
           (n = w("div")),
             (n.innerHTML =
-              '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for ' + artist + ' songs.</p> \n\n<p class="mb-3">Each ' + artist + ' Heardle is randomly chosen from ' + artist + '\'s discography.</p> \n\n\n\n <p class="mb-3">Have questions/run into bugs? DM me @'+ twitter +' on twitter! </p>  \n\n\n\n <p class="mb-3">Want to make your own Heardle? Check out the <a href="https://glitch.com/edit/#!/joywave-heardle?path=README.md">README</a>  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
+              '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> but with songs that are easier to guess. </p> \n\n<p class="mb-3">Each song is chosen from a large selection of popular songs that most people have heard before. </p> \n\n\n\n <p class="mb-3">Have questions/run into bugs? Send me an email at theo@bongbong.com </p> \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://cloudflare.com/">Cloudflare</a>.'),
             M(n, "class", "text");
         },
         m(e, t) {
@@ -4228,7 +4226,7 @@ var app = (function () {
             (n = w("p")),
               (s = w("p")),
               (n.textContent =
-                "Have questions/run into bugs? Tweet/DM me @"+ twitter +" on twitter!"),
+                "Have questions/run into bugs? Send me an email at theo@bongbong.com"),
               (r = x()),
               (s = w("p")),
               (i = x()),
@@ -4401,7 +4399,7 @@ var app = (function () {
               (f = w("div")),
               (m = w("div")),
               (k = w("div")),
-              (k.textContent = "Next " + artist + " song in:"),
+              (k.textContent = "Next song in:"),
               (b = x()),
               Q(S.$$.fragment),
               (D = x()),
@@ -4615,7 +4613,7 @@ var app = (function () {
         s = (e[0].length * e[1].attemptInterval) / 1e3 + "";
       return {
         c() {
-          (t = _("You got today's " + artist + " Heardle within the first ")),
+          (t = _("You got today's Songle within the first ")),
             (n = _(s)),
             (r = _(" seconds."));
         },
@@ -4642,7 +4640,7 @@ var app = (function () {
         a = e[1].attemptIntervalAlt[e[0].length - 1] / 1e3 > 1 ? "s" : "";
       return {
         c() {
-          (t = _("You got today's " + artist + " Heardle within ")),
+          (t = _("You got today's Songle within ")),
             (n = _(o)),
             (r = _("\n                second")),
             (s = _(a)),
@@ -4673,7 +4671,7 @@ var app = (function () {
       return {
         c() {
           n = _(
-            "You didn't get today's " + artist + " Heardle. Better luck tomorrow! 💎"
+            "You didn't get today's Songle. Better luck tomorrow! 💎"
           );
         },
         m(e, t) {
@@ -4815,7 +4813,7 @@ var app = (function () {
           u,
           c,
           () => {
-            let e = artist + " Heardle #" + (s.id + 1),
+            let e = "Songle #" + (s.id + 1),
               t = "";
             a
               ? r.length < i.maxAttempts / 3
@@ -4923,7 +4921,7 @@ var app = (function () {
             (t = w("div")),
               (n = w("div")),
               (n.innerHTML =
-                '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct ' + artist + ' song in the list.</p></div>'),
+                '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct song in the list.</p></div>'),
               (r = x()),
               (s = w("div")),
               (s.innerHTML =
@@ -9305,12 +9303,12 @@ var app = (function () {
             Q(Y.$$.fragment),
             (C = x()),
             H && H.c(),
-            (An.title = artist + " Heardle"),
+            (An.title = "Songle"),
             M(t, "name", "description"),
             M(
               t,
               "content",
-              "Guess the " + artist + " song from the intro in as few tries as possible"
+              "Guess the song from the intro in as few tries as possible"
             ),
             M(n, "rel", "apple-touch-icon"),
             M(n, "sizes", "180x180"),
