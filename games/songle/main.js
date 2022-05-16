@@ -904,25 +904,14 @@ var app = (function () {
       let t, n, r, s;
       return {
         c() {
+          
           (t = k("svg")),
-            (n = k("circle")),
-            (r = k("line")),
-            (s = k("line")),
-            M(n, "cx", "12"),
-            M(n, "cy", "12"),
-            M(n, "r", "10"),
-            M(r, "x1", "12"),
-            M(r, "y1", "16"),
-            M(r, "x2", "12"),
-            M(r, "y2", "12"),
-            M(s, "x1", "12"),
-            M(s, "y1", "8"),
-            M(s, "x2", "12.01"),
-            M(s, "y2", "8"),
+            (n = k("path")),
+            M(n, "d", "M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zm28.9-143.6L209.4 288H392c13.3 0 24-10.7 24-24v-16c0-13.3-10.7-24-24-24H209.4l75.5-72.4c9.7-9.3 9.9-24.8.4-34.3l-11-10.9c-9.4-9.4-24.6-9.4-33.9 0L107.7 239c-9.4 9.4-9.4 24.6 0 33.9l132.7 132.7c9.4 9.4 24.6 9.4 33.9 0l11-10.9c9.5-9.5 9.3-25-.4-34.3z"),
             M(t, "xmlns", "http://www.w3.org/2000/svg"),
             M(t, "width", "24"),
             M(t, "height", "24"),
-            M(t, "viewBox", "0 0 24 24"),
+            M(t, "viewBox", "0 0 512 512"),
             M(t, "fill", "none"),
             M(t, "stroke", "currentColor"),
             M(t, "stroke-width", "2"),
@@ -942,12 +931,20 @@ var app = (function () {
       return {
         c() {
           (t = k("svg")),
-            (n = k("path")),
-            M(
-              n,
-              "d",
-              "M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
-            ),
+            (n = k("circle")),
+            (r = k("line")),
+            (s = k("line")),
+            M(n, "cx", "12"),
+            M(n, "cy", "12"),
+            M(n, "r", "10"),
+            M(r, "x1", "12"),
+            M(r, "y1", "16"),
+            M(r, "x2", "12"),
+            M(r, "y2", "12"),
+            M(s, "x1", "12"),
+            M(s, "y1", "8"),
+            M(s, "x2", "12.01"),
+            M(s, "y2", "8"),
             M(t, "xmlns", "http://www.w3.org/2000/svg"),
             M(t, "width", "24"),
             M(t, "height", "24"),
@@ -1188,15 +1185,16 @@ var app = (function () {
       return [
         n,
         () => {
+          window.location.href = `https://www.bongbong.com/games/`
           n("info", "about"),
             pe("clickInfo", {
               name: "clickInfo",
             });
         },
         () => {
-          n("donate", "support"),
-            pe("clickDonate", {
-              name: "clickDonate",
+          n("info", "about"),
+            pe("clickInfo", {
+              name: "clickInfo",
             });
         },
         () => {
@@ -4832,10 +4830,10 @@ var app = (function () {
                 : (t += "⬜️");
             let o =
               e +
+              "\n" +
+              + "https://www.bongbong.com/games/songle"
               "\n\n" +
-              t +
-              "\n\n" 
-              // + "https://joywave-heardle.glitch.me/"
+              t
             if (
               !navigator.share ||
               !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
