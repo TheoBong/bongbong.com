@@ -1189,12 +1189,15 @@ var app = (function () {
       return [
         n,
         () => {
-          window.location.href = `https://www.bongbong.com/games/`
-        },
-        () => {
           n("info", "about"),
             pe("clickInfo", {
               name: "clickInfo",
+            });
+        },
+        () => {
+            n("donate", "support"),
+            pe("clickDonate", {
+              name: "clickDonate",
             });
         },
         () => {
