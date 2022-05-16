@@ -4830,7 +4830,7 @@ var app = (function () {
                 : (t += "⬜️");
             let o =
               e +
-              "\n" +
+              "\n"
               + "https://www.bongbong.com/games/songle"
               "\n\n" +
               t
