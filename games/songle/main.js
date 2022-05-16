@@ -1190,10 +1190,6 @@ var app = (function () {
         n,
         () => {
           window.location.href = `https://www.bongbong.com/games/`
-          n("info", "about"),
-            pe("clickInfo", {
-              name: "clickInfo",
-            });
         },
         () => {
           n("info", "about"),
