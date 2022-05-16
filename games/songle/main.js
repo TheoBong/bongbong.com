@@ -1,8 +1,8 @@
 var app = (function () {
     var startDate = "2022-05-15"
       const Cn = ue([
-        "No Shoulder - Joywave",
-        "Buy American - Joywave",
+        "Carry On Wayward Son - Kansas",
+        "What Does the Fox Say - Ylvis",
         "When You're Bored - Joywave",
         "It's A Trip! - Joywave",
         "Traveling at the Speed of Light - Joywave",
