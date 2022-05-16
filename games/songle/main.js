@@ -4830,8 +4830,8 @@ var app = (function () {
                 : (t += "⬜️");
             let o =
               e +
-              "\n"
-              + "https://www.bongbong.com/games/songle"
+              "\n" +
+              "https://www.bongbong.com/games/songle" +
               "\n\n" +
               t
             if (
