@@ -1,9 +1,9 @@
 var app = (function () {
   var artist = 'Joywave';
   var twitter = 'joywavez'
-  var startDate = "2022-06-15"
+  var startDate = "2022-05-16"
     const Cn = ue([
-      "Carry On Wayward Son - Kansas",
+        "Carry On Wayward Son - Kansas",
         "What Does the Fox Say - Ylvis",
         "Feel It Still - Portugal. The Man",
         "Titanium - David Guetta",
