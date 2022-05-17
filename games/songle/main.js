@@ -1355,7 +1355,7 @@ var app = (function () {
               Q(a.$$.fragment),
               (l = x()),
               (u = w("h1")),
-              (u.textContent = "Songle"),
+              (u.textContent = "Songle Gay"),
               (c = x()),
               (d = w("div")),
               Q(h.$$.fragment),
