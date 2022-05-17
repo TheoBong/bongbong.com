@@ -1,5 +1,5 @@
 var app = (function () {
-    var startDate = "2022-05-04"
+    var startDate = "2022-05-03"
       const Cn = ue([
         "Carry On Wayward Son - Kansas",
         "I Wanna Dance with Somebody - Whitney Houston",
