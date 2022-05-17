@@ -4,7 +4,7 @@ var app = (function () {
   var startDate = "2022-04-04"
     const Cn = ue([
         "Carry On Wayward Son - Kansas",
-        "What Does the Fox Say - Ylvis",
+        "Mad World - Tears For Fears",
         "Feel It Still - Portugal. The Man",
         "Titanium - David Guetta",
         "Blurred Lines - Robin Thicke",
@@ -45,7 +45,7 @@ var app = (function () {
         "Payphone - Maroon 5",
         "Eye of the Tiger - Survivor",
         "Hey There Delilah - Plain White T's",
-        "Mad World - Tears For Fears",
+        "What Does the Fox Say - Ylvis",
         "U Can't Toch This - MC Hammer",
         "You Know You Like It - DJ Snake",
         "Seven Nation Army - The White Stripes",
@@ -129,8 +129,8 @@ var app = (function () {
             answer: "Carry On Wayward Son - Kansas",
           },
           {
-            url: "https://soundcloud.com/ylvis-official/the-fox-what-does-the-fox-say",
-            answer: "What Does the Fox Say - Ylvis",
+            url: "https://soundcloud.com/tearsforfearsmusic/mad-world",
+            answer: "Mad World - Tears For Fears",
           },
           {
             url: "https://soundcloud.com/portugaltheman/feel-it-still",
@@ -293,8 +293,8 @@ var app = (function () {
             answer: "Hey There Delilah - Plain White T's",
           },
           {
-            url: "https://soundcloud.com/tearsforfearsmusic/mad-world",
-            answer: "Mad World - Tears For Fears",
+            url: "https://soundcloud.com/ylvis-official/the-fox-what-does-the-fox-say",
+            answer: "What Does the Fox Say - Ylvis",
           },
           {
             url: "https://soundcloud.com/mc-hammer-official/u-cant-touch-this",
