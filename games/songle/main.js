@@ -942,7 +942,7 @@ var app = (function () {
             M(t, "height", "24"),
             M(t, "viewBox", "0 0 24 24"),
             M(t, "fill", "none"),
-            M(t, "stroke", "#000000"),
+            M(t, "stroke", "currentColor"),
             M(t, "stroke-width", "2"),
             M(t, "stroke-linecap", "round"),
             M(t, "stroke-linejoin", "round");
