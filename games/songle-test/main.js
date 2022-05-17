@@ -1,7 +1,7 @@
 var app = (function () {
   var artist = 'Joywave';
   var twitter = 'joywavez'
-  var startDate = "2022-05-15"
+  var startDate = "2022-05-04"
     const Cn = ue([
         "Carry On Wayward Son - Kansas",
         "Mad World - Tears For Fears",
@@ -4501,7 +4501,7 @@ var app = (function () {
     }
   }
   const Vt = {
-      attemptInterval: [1e3, 2e3, 4e3, 7e3, 11e3, 16e3],
+      attemptInterval: 1.5e3,
       attemptIntervalAlt: [1e3, 2e3, 4e3, 7e3, 11e3, 16e3],
       maxAttempts: 6,
       startDate: startDate,
