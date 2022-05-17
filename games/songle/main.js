@@ -14,6 +14,7 @@ var app = (function () {
       "Stolen Dance - Milky Chance",
       "Love Yourself - Justin Bieber",
       "Empire State of Mind - Jay-Z",
+      "What Does the Fox Say - Ylvis",
       "See You Again - Wiz Khalifa",
       "Billie Jean - Michael Jackson",
       "I Wanna Dance with Somebody - Whitney Houston",
@@ -43,7 +44,6 @@ var app = (function () {
       "Payphone - Maroon 5",
       "Eye of the Tiger - Survivor",
       "Hey There Delilah - Plain White T's",
-      "What Does the Fox Say - Ylvis",
       "U Can't Toch This - MC Hammer",
       "You Know You Like It - DJ Snake",
       "Seven Nation Army - The White Stripes",
@@ -175,6 +175,10 @@ var app = (function () {
           answer: "Empire State of Mind - Jay-Z",
         },
         {
+          url: "https://soundcloud.com/ylvis-official/the-fox-what-does-the-fox-say",
+          answer: "What Does the Fox Say - Ylvis",
+        },
+        {
           url: "https://soundcloud.com/wizkhalifa/see-you-again-feat-charlie",
           answer: "See You Again - Wiz Khalifa",
         },
@@ -289,10 +293,6 @@ var app = (function () {
         {
           url: "https://soundcloud.com/plain-white-ts-official/hey-there-delilah-2",
           answer: "Hey There Delilah - Plain White T's",
-        },
-        {
-          url: "https://soundcloud.com/ylvis-official/the-fox-what-does-the-fox-say",
-          answer: "What Does the Fox Say - Ylvis",
         },
         {
           url: "https://soundcloud.com/mc-hammer-official/u-cant-touch-this",
@@ -1355,7 +1355,7 @@ var app = (function () {
               Q(a.$$.fragment),
               (l = x()),
               (u = w("h1")),
-              (u.textContent = "Songle Gay"),
+              (u.textContent = "Songle"),
               (c = x()),
               (d = w("div")),
               Q(h.$$.fragment),
