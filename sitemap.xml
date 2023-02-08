@@ -1,40 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
-<url>
-  <loc>https://www.bongbong.com/</loc>
-  <lastmod>2022-11-28T20:37:10+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.bongbong.com/games/</loc>
-  <lastmod>2022-11-28T20:37:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.bongbong.com/games/bongle/</loc>
-  <lastmod>2022-05-15T19:37:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.bongbong.com/games/bongle-infinite/</loc>
-  <lastmod>2022-05-15T19:37:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.bongbong.com/games/bongle-custom/</loc>
-  <lastmod>2022-05-15T19:37:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.bongbong.com/games/songle/</loc>
-  <lastmod>2022-05-15T19:37:10+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.bongbong.com/blog/tags/bitcoin/</loc>
+    <lastmod>2023-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.bongbong.com/blog/categories/bitcoin/</loc>
+    <lastmod>2023-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.bongbong.com/blog/categories/</loc>
+    <lastmod>2023-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.bongbong.com/blog/tags/energy/</loc>
+    <lastmod>2023-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.bongbong.com/blog/tags/environment/</loc>
+    <lastmod>2023-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.bongbong.com/blog/posts/bitcoin-energy/</loc>
+    <lastmod>2023-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.bongbong.com/blog/posts/free-software-practical/</loc>
+    <lastmod>2023-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.bongbong.com/blog/posts/</loc>
+    <lastmod>2023-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.bongbong.com/blog/tags/rebutal/</loc>
+    <lastmod>2023-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.bongbong.com/blog/tags/</loc>
+    <lastmod>2023-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.bongbong.com/blog/</loc>
+    <lastmod>2023-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.bongbong.com/blog/archives/</loc>
+  </url><url>
+    <loc>https://www.bongbong.com/blog/search/</loc>
+  </url><url>
+    <loc>https://www.bongbong.com/blog/series/</loc>
+  </url>
 </urlset>
