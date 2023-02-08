@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.bongbong.com/blog/sitemap.xml
